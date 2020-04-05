@@ -26,6 +26,7 @@ namespace tutorial5.Models
 
         [Required]
         [MaxLength(100)]
-        public string studies { get; set; }
+        public string studies { get; set; }   //Computer Science
+
     }
 }
