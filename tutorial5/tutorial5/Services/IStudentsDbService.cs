@@ -10,7 +10,7 @@ namespace tutorial5.Services
     public interface IStudentsDbService
     {
 
-        void EnrollStudent(Student student);
-        void PromoteStudent(Enrollment enrollment);
+        Student EnrollStudent(Student student);
+        Enrollment PromoteStudent(Enrollment enrollment);
     }
 }
